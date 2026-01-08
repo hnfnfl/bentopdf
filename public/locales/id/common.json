@@ -275,7 +275,161 @@
   },
   "licensing": {
     "title": "Lisensi untuk",
-    "subtitle": "Pilih lisensi yang sesuai dengan kebutuhan Anda."
+    "subtitle": "Pilih lisensi yang sesuai dengan kebutuhan Anda.",
+    "openSource": {
+      "title": "Sumber Terbuka",
+      "description": "BentoPDF dilisensikan di bawah Lisensi Publik Umum GNU Affero versi 3.0 (AGPL-3.0). Anda bebas menggunakan, memodifikasi, dan mendistribusikan BentoPDF dalam proyek open-source Anda.",
+      "features": {
+        "freeToUse": {
+          "title": "Gratis untuk Digunakan",
+          "description": "Gunakan BentoPDF secara gratis dalam proyek open-source di mana Anda membuat kode sumber Anda tersedia untuk umum."
+        },
+        "modifyDistribute": {
+          "title": "Modifikasi & Distribusikan",
+          "description": "Modifikasi kode sumber dan distribusikan versi Anda, selama Anda mematuhi persyaratan AGPL-3.0."
+        },
+        "shareAlike": {
+          "title": "Share-Alike",
+          "description": "Setiap modifikasi atau karya turunan juga harus dilisensikan di bawah AGPL-3.0 dan dibuat tersedia untuk umum."
+        }
+      },
+      "viewOnGitHub": "Lihat di GitHub"
+    },
+    "commercial": {
+      "title": "Komersial",
+      "description": "Jika Anda ingin menggunakan BentoPDF dalam aplikasi sumber tertutup atau proprietari tanpa membagikan kode sumber, Anda harus membeli lisensi komersial.",
+      "features": {
+        "proprietaryUse": {
+          "title": "Penggunaan Proprietari",
+          "description": "Gunakan BentoPDF dalam aplikasi sumber tertutup tanpa kewajiban untuk mengungkapkan kode sumber Anda."
+        },
+        "enterpriseSupport": {
+          "title": "Dukungan Enterprise",
+          "description": "Dapatkan dukungan prioritas, fitur khusus, dan bantuan dengan integrasi."
+        },
+        "earlyAccess": {
+          "title": "Akses Awal ke Fitur Baru",
+          "description": "Pemegang lisensi komersial mendapatkan akses awal ke fitur baru dan pembaruan."
+        },
+        "flexibleTerms": {
+          "title": "Syarat Fleksibel",
+          "description": "Ketentuan lisensi disesuaikan dengan kebutuhan bisnis dan proyek Anda."
+        }
+      },
+      "limitedTimeOffer": "PENAWARAN TERBATAS",
+      "lifetimeLicense": "Lisensi Seumur Hidup",
+      "oneTime": "sekali bayar",
+      "includesAllUpdates": "Termasuk semua pembaruan fitur selamanya",
+      "unlimitedUsage": "Penggunaan Tidak Terbatas",
+      "unlimitedDescription": "Lisensi komersial BentoPDF memungkinkan penggunaan pada jumlah perangkat, server, dan mesin pengguna yang tidak terbatas dalam organisasi Anda. Tidak ada batasan per-pengguna, per-mesin, atau per-kursi. Setelah pembelian lisensi, semua pengguna internal dapat menggunakan BentoPDF melalui sistem berbasis browser tanpa memerlukan lisensi tambahan.",
+      "purchaseLifetimeLicense": "Beli Lisensi Seumur Hidup",
+      "customRequests": "💡 Permintaan dan pengembangan khusus tersedia dengan biaya terpisah. Hubungi kami untuk detail."
+    },
+    "comparison": {
+      "title": "Apakah Saya Perlu Lisensi Komersial?",
+      "subtitle": "Gunakan tabel referensi cepat ini untuk menentukan apakah kasus penggunaan Anda memerlukan lisensi komersial.",
+      "useCase": "Kasus Penggunaan",
+      "licenseRequired": "Lisensi Diperlukan",
+      "free": "AGPL (Gratis)",
+      "commercial": "Komersial",
+      "personalUse": "Penggunaan pribadi (layanan tanpa hosting)",
+      "openSourceProject": "Proyek sumber terbuka dengan kode sumber tersedia secara publik",
+      "publicWebsite": "Situs web publik di mana Anda membagikan kode sumber lengkap yang dimodifikasi di bawah AGPL",
+      "educational": "Proyek pendidikan/penelitian dengan kode yang dibagikan secara publik",
+      "saasClosed": "Aplikasi SaaS atau web (sumber tertutup)",
+      "internalTool": "Alat perusahaan internal/dashboard (kode sumber tidak dibagikan dengan pengguna)",
+      "commercialProduct": "Produk komersial (menjaga kode sumber tetap pribadi)",
+      "networkService": "Layanan jaringan di mana kode sumber tidak dapat diakses oleh pengguna",
+      "privateModifications": "Aplikasi apa pun di mana Anda ingin menjaga modifikasi tetap pribadi",
+      "stillNotSure": "Masih belum yakin? Hubungi kami untuk mendiskusikan kasus penggunaan spesifik Anda."
+    },
+    "agplRequirements": {
+      "title": "Persyaratan AGPL",
+      "description": "Saat menggunakan BentoPDF di bawah AGPL-3.0, Anda harus mematuhi persyaratan berikut:",
+      "producerLine": {
+        "title": "Baris Produser & Hak Cipta",
+        "description": "Anda harus menyebutkan sumber terbuka kami dan menyertakan detail lisensi AGPL dalam metadata PDF. Anda juga harus mempertahankan baris produser di semua PDF yang dibuat atau dimodifikasi menggunakan sumber terbuka kami."
+      },
+      "codeModifications": {
+        "title": "Modifikasi Kode",
+        "description": "Setiap modifikasi terhadap sumber terbuka kami wajib diungkapkan di bawah lisensi AGPL. Ini mencakup pembagian kode yang telah dimodifikasi kepada semua pengguna yang berinteraksi dengannya."
+      },
+      "agplCompliantEnvironments": {
+        "title": "Hanya Lingkungan yang Patuh AGPL",
+        "description": "Penggunaan Edisi Komunitas sumber terbuka kami harus dibatasi pada lingkungan yang patuh AGPL, di mana semua persyaratan AGPL sepenuhnya dihormati."
+      },
+      "sourceCodeDisclosure": {
+        "title": "Pengungkapan Kode Sumber",
+        "description": "Anda tidak dapat menerapkan sumber terbuka kami sebagai bagian dari aplikasi atau layanan berbasis server tanpa mengungkapkan kode sumber lengkap aplikasi Anda sendiri di bawah AGPL kepada semua pengguna yang berinteraksi dengannya."
+      }
+    },
+    "agplCompliance": {
+      "title": "Apa itu Patuh AGPL?",
+      "compliant": {
+        "title": "Patuh AGPL",
+        "openSourceProjects": "Proyek sumber terbuka di mana Anda membagikan kode sumber lengkap secara publik",
+        "personalUse": "Penggunaan pribadi di mana Anda tidak mendistribusikan atau menghostingnya sebagai layanan",
+        "publiclyHosted": "Alat yang dihosting secara publik di mana Anda menyediakan kode sumber lengkap (termasuk modifikasi) di bawah AGPL",
+        "educational": "Proyek pendidikan atau penelitian yang membuat semua kode tersedia secara publik"
+      },
+      "notCompliant": {
+        "title": "Tidak Patuh AGPL",
+        "proprietarySaas": "Aplikasi SaaS proprietary/closed-source",
+        "internalTools": "Alat perusahaan internal di mana kode sumber tidak dibagikan dengan pengguna",
+        "commercialProducts": "Produk komersial yang tidak mengungkapkan kode sumber lengkap",
+        "networkServices": "Layanan jaringan yang tidak menyediakan akses kode sumber kepada pengguna",
+        "privateSource": "Aplikasi apa pun di mana Anda ingin menjaga kode sumber Anda tetap pribadi",
+        "warning": "⚠️ Kasus penggunaan ini memerlukan lisensi komersial."
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan Umum tentang Lisensi",
+      "questions": {
+        "websiteUse": {
+          "question": "Apakah saya perlu lisensi komersial jika menggunakan BentoPDF di situs web saya?",
+          "answer": "Jika Anda menggunakan BentoPDF di situs web publik dan belum memodifikasi kode sumber, Anda tidak perlu lisensi komersial. Namun, jika Anda memodifikasi BentoPDF dengan cara apa pun dan membuatnya tersedia bagi pengguna melalui jaringan, AGPLv3 mengharuskan Anda menyediakan kode sumber yang telah dimodifikasi kepada pengguna tersebut. Jika Anda ingin menjaga modifikasi Anda tetap sumber tertutup, atau jika Anda mengintegrasikan BentoPDF ke dalam produk proprietari atau komersial, Anda akan memerlukan lisensi komersial. Hubungi kami untuk mendiskusikan kasus penggunaan spesifik Anda."
+        },
+        "internalTools": {
+          "question": "Bisakah saya menggunakan BentoPDF untuk alat perusahaan internal?",
+          "answer": "Jika alat internal Anda bersifat closed-source dan tidak dibagikan secara publik, Anda akan memerlukan lisensi komersial. Lisensi AGPL-3.0 mengharuskan Anda menyediakan kode sumber dari layanan yang dapat diakses jaringan yang menggunakan BentoPDF kepada penggunanya. Jika Anda tidak dapat atau tidak ingin melakukan itu, lisensi komersial adalah pilihan yang tepat."
+        },
+        "modifications": {
+          "question": "Bagaimana jika saya memodifikasi BentoPDF untuk penggunaan pribadi saya?",
+          "answer": "Jika Anda memodifikasi BentoPDF dan menyebarkannya sebagai layanan jaringan (misalnya, aplikasi web), Anda harus membuat kode sumber yang telah dimodifikasi tersedia di bawah AGPL-3.0. Jika Anda tidak ingin membagikan modifikasi Anda, Anda harus memperoleh lisensi komersial."
+        },
+        "purchase": {
+          "question": "Bagaimana cara membeli lisensi komersial?",
+          "answer": "BentoPDF tersedia di bawah lisensi komersial dengan pembelian satu kali seumur hidup. Anda dapat membelinya langsung di sini: Beli Lisensi Komersial. Jika Anda memiliki kebutuhan khusus atau menginginkan pengaturan lisensi khusus, jangan ragu untuk menghubungi kami dengan rincian tentang kasus penggunaan, ukuran perusahaan, dan kebutuhan penyebaran Anda. Kami senang bekerja sama dengan Anda untuk menemukan solusi terbaik."
+        }
+      }
+    },
+    "commercialDetails": {
+      "title": "Detail Lisensi Komersial",
+      "delivery": {
+        "title": "Model Pengiriman & Lisensi",
+        "noLicenseKey": "Tidak ada kunci lisensi yang diperlukan atau disediakan. BentoPDF sengaja tidak menggunakan kunci lisensi untuk menyederhanakan penyebaran dan mengurangi gesekan operasional bagi pengguna.",
+        "zipArchive": "Setelah pembelian, pengguna menerima arsip ZIP yang berisi kode sumber lengkap BentoPDF dan binari.",
+        "identicalCode": "Kode sumber yang disediakan identik dengan kode yang dipublikasikan di repositori open-source publik kami.",
+        "noRefunds": "Tidak ada pengembalian dana. Dalam keadaan apa pun pengembalian dana tidak akan dilakukan setelah pembelian."
+      },
+      "thirdParty": {
+        "title": "Pemberitahuan Penting tentang Komponen Pihak Ketiga",
+        "includes": "Perangkat lunak ini mencakup komponen yang dilisensikan di bawah GNU AGPL v3, termasuk:",
+        "doesNotGrant": "Lisensi komersial ini tidak memberikan hak untuk menggunakan komponen AGPL secara tertutup.",
+        "mustComply": "Pengguna harus mematuhi ketentuan AGPL v3 untuk komponen ini.",
+        "sourceIncluded": "Kode sumber untuk semua komponen AGPL disertakan dalam distribusi."
+      },
+      "invoicing": {
+        "title": "Faktur",
+        "noAutoInvoice": "Ko-fi tidak secara otomatis mengeluarkan faktur.",
+        "officialInvoice": "Faktur resmi akan diberikan segera setelah diminta."
+      }
+    },
+    "cta": {
+      "title": "Masih ada pertanyaan?",
+      "description": "Kami di sini untuk membantu. Hubungi kami untuk membahas kebutuhan lisensi Anda.",
+      "contactUs": "Hubungi Kami"
+    }
   },
   "multiTool": {
     "uploadPdfs": "Unggah PDF",

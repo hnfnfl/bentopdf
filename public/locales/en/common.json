@@ -318,8 +318,6 @@
       },
       "limitedTimeOffer": "LIMITED TIME OFFER",
       "lifetimeLicense": "Lifetime License",
-      "originalPrice": "$99",
-      "discountedPrice": "$49",
       "oneTime": "one-time",
       "includesAllUpdates": "Includes all feature updates forever",
       "unlimitedUsage": "Unlimited Usage",
@@ -412,8 +410,7 @@
         "noLicenseKey": "No license key is required or provided. BentoPDF intentionally does not use license keys to streamline deployment and reduce operational friction for users.",
         "zipArchive": "Upon purchase, users receive a ZIP archive containing the complete BentoPDF source code and binaries.",
         "identicalCode": "The source code provided is identical to the code published in our public open-source repository.",
-        "noRefunds": "No refunds. Under no circumstances shall a refund be made after purchase.",
-        "githubRepo": "GitHub Repository: github.com/alam00000/bentopdf"
+        "noRefunds": "No refunds. Under no circumstances shall a refund be made after purchase."
       },
       "thirdParty": {
         "title": "Important Notice on Third-Party Components",
